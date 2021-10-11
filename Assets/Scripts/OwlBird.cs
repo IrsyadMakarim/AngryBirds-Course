@@ -10,7 +10,7 @@ public class OwlBird : Bird
     {
         if(_hasExploded == true)
         {
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 
